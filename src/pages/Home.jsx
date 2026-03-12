@@ -14,7 +14,6 @@ export const Home = () => {
       }}>
         <Header />
 
-        {/* Oscurecimiento */}
         <div style={{
           position: "absolute", inset: 0,
           background: "linear-gradient(to right, rgba(0,0,0,0.9), transparent)"
@@ -47,7 +46,13 @@ export const Home = () => {
               id: 5,
               titulo: "King Kong",
               imagen: "https://m.media-amazon.com/images/M/MV5BMWY0NWE0ZjUtNjRlOS00ZDViLTgxNTQtMGMwN2FhNDY1YTg2XkEyXkFqcGc@._V1_.jpg"
+            },
+            {
+              id: 6,
+              titulo: "Godzilla",
+              imagen: "https://es.web.img3.acsta.net/pictures/14/03/04/12/38/124399.jpg"
             }
+            
           ]}
         
         />

@@ -56,6 +56,11 @@ export const Music = () => {
               id: 5,
               titulo: "Section.80",
               imagen: "https://fmhiphop.com/wp-content/uploads/2021/07/EAO7i6Z-1.jpg"
+            },
+            {
+              id: 6,
+              titulo: "untitled unmastered",
+              imagen: "https://i.ytimg.com/vi/aH2UaivzPvs/maxresdefault.jpg"
             }
           ]}
         />

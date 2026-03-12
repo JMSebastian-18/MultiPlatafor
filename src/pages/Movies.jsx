@@ -55,16 +55,21 @@ export const Movies = () => {
                 id: 5,
                 titulo: "Death Note",
                 imagen: "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Death_Note_Vol_1.jpg/250px-Death_Note_Vol_1.jpg"
+              },
+              {
+                id: 6,
+                titulo: "fullmetal alchemist",
+                imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY0JGPsUXVKD7EKiohwlI7rs-KhoBSVk5G5A&s"
               }
             ]}
           />
 
-          {/* Estilo extra solo si el componente tiene el color 'white' fijo por dentro */}
-          <style>{`
-    .custom-black-text p {
-      color: black !important;
-    }
-  `}</style>
+          
+        <style>{`
+          .custom-black-text p {
+          color: black !important;
+          }
+        `}</style>
         </div>
 
 

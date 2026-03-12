@@ -30,21 +30,36 @@ export const Nose = () => {
 
         <ListaPopular
           peliculas={[
-            { id: 1, 
-              titulo: "Merlina", 
-              imagen: "https://www.tornamesa.co/imagenes/9786287/978628768860.webp" },
-            { id: 2, 
-              titulo: "Stranger Things", 
-              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkKUl5aPjgK8YRHuquJd9hqPwkGNGHIkTtVg&s" },
-            { id: 3, 
-              titulo: "The Last of Us", 
-              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrGWo2txPhX9aMp0klBBeL-Qsn0SfwlDiQQ&s" },
-            { id: 4, 
-              titulo: "Squid Game", 
-              imagen: "https://upload.wikimedia.org/wikipedia/en/3/38/Squid_Game_season_2_poster.png" },
-            { id: 5, 
-              titulo: "The Boys", 
-              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzDgJAwVM8FO6Bn9OdPS_y6TgL42gleSZ5MQ&s" },
+            {
+              id: 1,
+              titulo: "Merlina",
+              imagen: "https://www.tornamesa.co/imagenes/9786287/978628768860.webp"
+            },
+            {
+              id: 2,
+              titulo: "Stranger Things",
+              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkKUl5aPjgK8YRHuquJd9hqPwkGNGHIkTtVg&s"
+            },
+            {
+              id: 3,
+              titulo: "The Last of Us",
+              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrGWo2txPhX9aMp0klBBeL-Qsn0SfwlDiQQ&s"
+            },
+            {
+              id: 4,
+              titulo: "Squid Game",
+              imagen: "https://upload.wikimedia.org/wikipedia/en/3/38/Squid_Game_season_2_poster.png"
+            },
+            {
+              id: 5,
+              titulo: "The Boys",
+              imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzDgJAwVM8FO6Bn9OdPS_y6TgL42gleSZ5MQ&s"
+            },
+            {
+              id: 6,
+              titulo: "Arcane",
+              imagen: "https://es.web.img3.acsta.net/pictures/21/11/16/14/35/2231192.jpg"
+            }
           ]}
         />
 
